@@ -1,0 +1,49 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Karla', sans-serif;
+}
+
+nav {
+    background-color: beige;
+    position: fixed;
+    width: 100%;
+}
+
+nav > h1 {
+    margin: 0;
+    padding: 1em;
+    text-align: center;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 6em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    border: 1px solid aliceblue;
+    background-color: antiquewhite;
+}
+
+label{
+    text-align: center;
+    margin: 0.5em 0;
+}
+
+button{
+    margin-top: 1em;
+}
+
+#blog-list {
+   text-align: center;
+}
+
+#blog-list p {
+    text-align: justify;
+}
