@@ -38,6 +38,13 @@ label{
 
 button{
     margin-top: 1em;
+    border: none;
+    background-color: darksalmon;
+    padding: 0.5em;
+    font-family: inherit;
+    font-size: 1rem;
+    border-radius: 20px;
+    cursor: pointer;
 }
 
 #blog-list {
